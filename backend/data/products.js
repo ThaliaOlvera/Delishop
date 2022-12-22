@@ -1,0 +1,96 @@
+const products = [
+    {
+        name: "Rose Ring",
+        imageUrl: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        description: "Rose Gold Cushion Cut Pink Sapphire and Diamond Engagement Ring",
+        price: 35000,
+        countInStock: 3,
+    },
+    {
+        name: "Minus Ring",
+        imageUrl: "https://images.unsplash.com/photo-1586104195538-050b9f74f58e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        description: "Minos engagement diamond",
+        price: 85000,
+        countInStock: 1,
+    },
+    {
+        name: "Black sky ring",
+        imageUrl: "https://images.unsplash.com/photo-1589674536249-62d7ea50d6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+        description: "Large Obsidian and Diamond Ring",
+        price: 15000,
+        countInStock: 7,
+    },
+    {
+        name: "Daphne ring",
+        imageUrl: "https://images.unsplash.com/photo-1603561596973-8166e9e089d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        description: "Rose Gold Cushion Cut Pink Amatista and Diamond Engagement Ring",
+        price: 45000,
+        countInStock: 2,
+    },
+    {
+        name: "zeus rings",
+        imageUrl: "https://images.unsplash.com/photo-1595370239057-4f721a8bb505?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+        description: "Diamond and silver engagement ring",
+        price: 13000,
+        countInStock: 3,
+    },
+    {
+        name: "Celestial Ring",
+        imageUrl: "https://images.unsplash.com/photo-1583937443325-97becde478a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        description: "sapphire and diamond engagement ring",
+        price: 38000,
+        countInStock: 5,
+    },
+    {
+        name: "claire ring",
+        imageUrl: "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1086&q=80",
+        description: "This beautiful ring was designed and handmade in Antwerp by J.Katz.",
+        price: 98000,
+        countInStock: 2,
+    },
+    {
+        name: "Aurora ring",
+        imageUrl: "https://images.unsplash.com/photo-1602752249980-294b1d1e9ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1465&q=80",
+        description: "Engagement ring was designed and handmade in Antwerp, Belgium by Joe Katz.",
+        price: 198000,
+        countInStock: 4,
+    },
+    {
+        name: "Ino ring",
+        imageUrl: "https://images.unsplash.com/photo-1602752250015-52934bc45613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80",
+        description: "wedding ring was designed and handmade in Antwerp",
+        price: 78000,
+        countInStock: 1,
+    },
+    {
+        name: "Odey ring",
+        imageUrl: "https://images.unsplash.com/photo-1565206077212-4eb48d41f54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        description: "ring silver",
+        price: 5000,
+        countInStock: 8,
+    },
+    {
+        name: "Finey ring",
+        imageUrl: "https://images.unsplash.com/photo-1627293509201-cd0c780043e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        description: "gold and silver engagement ring",
+        price: 5320,
+        countInStock: 3,
+    },
+    {
+        name: "Golden ring",
+        imageUrl: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+        description: "golden engagement ring",
+        price: 85320,
+        countInStock: 2,
+    },
+    {
+        name: "Annie ring",
+        imageUrl: "https://images.unsplash.com/photo-1589674781759-c21c37956a44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        description: "diamond encrusted silver ring",
+        price: 15520,
+        countInStock: 4,
+    },
+    
+];
+
+module.exports = products;
